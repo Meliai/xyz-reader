@@ -16,9 +16,6 @@
 -->
 
 <resources>
-
-
-
         <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
             <!-- Customize your theme here. -->
             <item name="colorPrimary">@color/colorPrimary</item>
@@ -27,6 +24,10 @@
 
         </style>
 
-
+    <style name="mCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
 
 </resources>
