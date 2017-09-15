@@ -50,7 +50,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
                     android:layout_marginRight="@dimen/detail_inner_horiz_margin"
-                    android:textColorLink="@color/colorAccent"
                     android:textSize="@dimen/detail_body_text_size"
                     android:layout_marginBottom="16dp"
                     />
@@ -103,6 +102,6 @@
         app:elevation="6dp"
         app:borderWidth="0dp"
         android:layout_marginRight="8dp"
-        android:backgroundTint="@color/colorAccent"/>
+       />
 
 </android.support.design.widget.CoordinatorLayout>
